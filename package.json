@@ -1,0 +1,12 @@
+{
+  "name": "mern-product-management",
+  "version": "1.0.0",
+  "description": "Full-stack MERN product management system",
+  "scripts": {
+    "install-all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd backend && npm start",
+    "client": "cd frontend && npm start",
+    "build": "cd frontend && npm run build"
+  }
+}
